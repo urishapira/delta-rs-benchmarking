@@ -1,0 +1,11 @@
+[package]
+name = "bench-common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+url = "2"
+sysinfo = "0.30"
+cpu-time = "1"
+async-trait = "0.1"

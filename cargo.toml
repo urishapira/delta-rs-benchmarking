@@ -1,0 +1,4 @@
+[workspace]
+members = ["bench-common", "bench-new"]
+exclude = ["bench-old"]
+resolver = "2"
